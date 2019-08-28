@@ -15,7 +15,7 @@ static public class Parser
         int channelcnt = l1.Length - 1;
         List<List<Note>> channels = new List<List<Note>>(l1.Length - 1);
         
-        Debug.Log(l1);
+        //Debug.Log(l1);
         lines.RemoveAt(0);
        
         foreach (var line in lines)
